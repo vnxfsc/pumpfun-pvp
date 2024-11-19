@@ -1,7 +1,10 @@
 # PumpFun PVP Bot
 
 一个用于 PumpFun 的自动化PVP交易机器人。
-
+## 联系我
+https://t.me/Pornhub_CNC
+## 效果图
+![image](https://github.com/user-attachments/assets/49e16ab9-4c54-46c3-9cf1-40005475b724)
 ## 功能特点
 
 - 自动监控新代币
