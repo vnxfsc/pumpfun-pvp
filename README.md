@@ -25,18 +25,6 @@ pip install -r requirements.txt
 ```
 pumpfun-pvp/
 ├── main.py # 主程序入口
-├── wallets/ # 钱包文件目录（自动创建）
-├── oldwallets/ # 已使用钱包归档目录
-└── src/
-├── pump/ # 代币创建和交易相关
-│ ├── create.py # 创建代币
-│ └── trade.py # 交易操作
-├── wallet/ # 钱包管理
-│ ├── create_wallet.py # 创建钱包
-│ └── transfer.py # 转账操作
-└── websockets/ # WebSocket 监控
-├── subscribe_new.py # 新代币监控
-└── subscribe_token.py # 代币交易监控
 ```
 ## 使用说明
 
@@ -72,14 +60,6 @@ python main.py
 3. 使用完毕后及时归集资金
 4. 确保网络环境安全
 
-
-## 开发说明
-
-- 使用 solders 库进行 Solana 交易
-- 使用 websockets 进行实时监控
-- 使用 aiohttp 进行异步 HTTP 请求
-- 所有关键操作都有重试机制
-- 支持自定义配置和错误处理
 
 ## 免责声明
 
